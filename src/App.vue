@@ -1,28 +1,47 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <Title/>
+    <Introduction/>
+    <Criteres/>
+    <RollerParagraph/>
+    <ThirdTitleBox/>
+    <Congolist/>
+    <Conclusion/>
+    <SurpriseBtn/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Title from './components/Title.vue'
+import Introduction from './components/Introduction.vue'
+import Criteres from './components/criteres/Criteres.vue'
+import RollerParagraph from '@/components/roller/RollerParagraph';
+import ThirdTitleBox from './components/thirdTitle/ThirdTitleBox';
+import Congolist from '@/components/congo/CongoList';
+import Conclusion from './components/Conclusion.vue';
+import SurpriseBtn from './components/SurpriseBtn.vue';
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Title,
+    Introduction,
+    Criteres,
+    RollerParagraph,
+    ThirdTitleBox,
+    Congolist,
+    Conclusion,
+    SurpriseBtn
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+div {
+  /* Layout Properties */
+  /* UI Properties */
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
 </style>
