@@ -5,6 +5,7 @@
 <script>
 export default {
   name: 'SurpriseBtn',
+  /*-------- Handler pour le Bouton SURPRISE qui ouvre un popup :) --------*/
   methods: {
   handle(){
     window.open('https://www.youtube.com/watch?v=njos57IJf-0', '_blank');

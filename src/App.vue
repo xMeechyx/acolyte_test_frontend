@@ -21,6 +21,7 @@ import Congolist from '@/components/congo/CongoList';
 import Conclusion from './components/Conclusion.vue';
 import SurpriseBtn from './components/SurpriseBtn.vue';
 
+/* ----- Je ne crois pas avoir besoin de commenter partout, le code est tres facile a lire selon moi, chaque component est clairement identifier et en ordre, comprenent quelques groupes de components ----- */
 
 export default {
   name: 'App',
